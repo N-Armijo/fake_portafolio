@@ -1,0 +1,7 @@
+.bg--custom{
+        background: linear-gradient(to right, $start-color, $end-color);
+}
+.bg-body-tertiary{
+    background: linear-gradient(90deg,$azul ,$naranjo,$rosado);
+    color: $white;
+}
