@@ -1,21 +1,24 @@
 @charset 'UTF-8';
 
 // 1.- Abstracts
-@use 'abstracts/variables';
+@import 
+  'abstracts/variables';
 
 // 2.- Vendors (Bootstrap)
-@use 'vendors/bootstrap';
-
+@import
+  'vendors/bootstrap';
 // 3.- Base
-@use 'base/reset';
-@use 'base/typography';
+@import 
+  'base/reset',
+  'base/typography';
 
-// 4.- Layout
+// 4.- layout
 
-// 5.- Components
-@use 'components/logo';
+// 5.- components
+@import
+ 'components/logo';
+// 6.- pages
 
-// 6.- Pages
-
-// 7.- Themes
-@use 'themes/theme';
+// 7.- themes
+@import
+  'themes/theme';

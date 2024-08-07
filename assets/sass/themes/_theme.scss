@@ -1,8 +1,7 @@
-@use '../abstracts/variables' as var;
 .bg--custom{
-        background: linear-gradient(to right, var.$start-color, var.$end-color);
+        background: linear-gradient(to right, $start-color, $end-color);
 }
 .bg-body-tertiary{
-    background: linear-gradient(90deg,var.$azul ,var.$naranjo,var.$rosado);
-    color: var.$white;
+    background: linear-gradient(90deg,$azul ,$naranjo,$rosado);
+    color: $white;
 }
